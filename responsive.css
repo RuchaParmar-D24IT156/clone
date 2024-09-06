@@ -1,0 +1,10 @@
+@media  screen  and (max-width: 1000px){
+    body{
+        background-color: red;
+        
+    }
+    
+}
+.card-item img{
+    width: 140px;
+}

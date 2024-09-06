@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght1,300&display=swap');
+
+:root{
+    --main-bg-color:#2869cc;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    list-style:none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: yellow;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    /* color: rgb(231, 137, 15); */
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    width:30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 12px 16px ;
+    padding: 0 12px;
+}
+.search button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+.contianer {
+    min-height: calc(100vh - 58px - 12vh); /* Adjust as per layout needs */
+}
+
+.slider {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider img {
+    width: 80%; /* Ensures the image fills the width of the slider */
+    height: 80%; /* Ensures the image fills the height of the slider */
+    object-fit: cover; /* Keeps the image proportionate while covering the entire slider */
+}
+
+
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.card{
+    display: flex;
+    overflow: hidden;
+
+}
+.card-item{
+    display: inline flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
+.contianer{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+ footer{
+    height: 12vh;
+    background-color:var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
